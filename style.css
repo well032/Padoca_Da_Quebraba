@@ -1,0 +1,110 @@
+        /* Configuração padrão para iniciar o projeto do CSS */
+        * {
+            padding: 0;
+            margin: 0;
+            vertical-align: baseline;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            display: flex;
+            /* deixa os itens lado a lado  */
+            align-items: center;
+            /* alinhando os itens do header para o centro*/
+            justify-content: space-evenly;
+            /* Tradução:justificar-conteudo: espaço uniforme. Alinhar os itens iguamente dento da página. */
+            padding: 15px;
+            /* cuidando do preenchimento */
+            background-color: #008B8B;
+            /* cor de fundo */
+
+            overflow: hidden;
+
+            line-height: 200px;
+            /* altiura da linha*/
+            max-height: 200px;
+            /*  aultura máxima*/
+        }
+
+        header>h1 {
+            /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
+            color: white;
+            /* Chamamos a propriedade color e definimos uma cor em questão */
+        }
+
+        header>img {
+            width: 190px;
+            /* Largura da Imagem*/
+            height: 135px;
+            /* Altura da  Imagem */
+        }
+
+        #menu-header {
+            /* nosso menu de navegação */
+            display: flex;
+            /* Responsavel por colocar os itens lado a lado  */
+            align-items: center;
+            /* Alinhar ps itens do nosso Header para o centro*/
+        }
+
+        #list-header {
+            /* Nossa lista não ordenada, aqui mudaremos diretamente nossa list. */
+            display: flex;
+            /* Responsável por colocar os itens Lado a Lado */
+            margin-right: 1rem;
+            /* margem da direita. 1 rem equivale a 16px, oi seja, podemos ultilizar para facilitar a inserção de PX*/
+        }
+
+        #list-menu{
+            display: flex;
+        }
+
+        .item-menu-header {
+            /* Nossa li que estão dentro do List Menu, onde se encotram os nomes do itens apresentados no Header */
+            margin-right: 25px;
+            /*  Margem da direita*/
+
+        }
+
+        .item-menu-header>a {
+            /* Chamamos para fazer algumas alterações */
+            text-decoration: none;
+            /*  Tira a linha do link*/
+            color: black;
+            /* Cor da letra*/
+            font-size: 14px;
+            /* Tamanho da letra. */
+        }
+
+        .item-menu-header>a:hover {
+            /*  Nossa (LI) que estão dentro do List Menu. (a) nossa tag de link que é representanda por: HOME/PRODUTOS/CONTATO, e o Hover é resposável pela modificação de cor ao passar o cursor em cima da letra.*/
+            color: white;
+            /* Cor da letra */
+            transition: 0.8s;
+            /* Transição da mudanda de cor da letra.*/
+
+        }
+
+        #botao-header{ /* Nossa Id do botão de Login */
+            display: flex; /* Responsável por colocar os itens  Lado a Lado */
+        }
+
+        #botao-header > button{ /*  Aqui chamamos nossa Id e onde queremos fazer alteração, no caso, o Botão(Button)*/
+            padding: 8px; /* Cuida do Preenchimento*/
+            background-color: transparent; /* Aqui deixamos o fundo do Botão transparent, ou seja, sem o fundo branco que estava em primeiro ´plano */
+            border: none; /*  None é usado para retirar algo, nesse caso a borda.*/
+        }
+
+        #botao-header > button > a {  /* Estamos chamando aqui nossa Tag de Link para alteração */
+            display: flex; /* Deixar os itens Lado a Lado*/
+            align-items: center; /* Alinhar os itens para o centro */
+            color: black;
+            text-decoration: none;
+        }
+
+        #botao-header > button >a:hover  { /*  */
+            text-decoration: none;
+            color: white;
+            transition: 0.8s;
+        }
