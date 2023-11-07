@@ -16,7 +16,7 @@
             /* Tradução:justificar-conteudo: espaço uniforme. Alinhar os itens iguamente dento da página. */
             padding: 15px;
             /* cuidando do preenchimento */
-            background-color: #008B8B;
+            background-color: rgb(134 , 101 , 51);
             /* cor de fundo */
 
             overflow: hidden;
@@ -56,7 +56,7 @@
             /* margem da direita. 1 rem equivale a 16px, oi seja, podemos ultilizar para facilitar a inserção de PX*/
         }
 
-        #list-menu{
+        #list-menu {
             display: flex;
         }
 
@@ -86,25 +86,67 @@
 
         }
 
-        #botao-header{ /* Nossa Id do botão de Login */
-            display: flex; /* Responsável por colocar os itens  Lado a Lado */
+        #botao-header {
+            /* Nossa Id do botão de Login */
+            display: flex;
+            /* Responsável por colocar os itens  Lado a Lado */
         }
 
-        #botao-header > button{ /*  Aqui chamamos nossa Id e onde queremos fazer alteração, no caso, o Botão(Button)*/
-            padding: 8px; /* Cuida do Preenchimento*/
-            background-color: transparent; /* Aqui deixamos o fundo do Botão transparent, ou seja, sem o fundo branco que estava em primeiro ´plano */
-            border: none; /*  None é usado para retirar algo, nesse caso a borda.*/
+        #botao-header>button {
+            /*  Aqui chamamos nossa Id e onde queremos fazer alteração, no caso, o Botão(Button)*/
+            padding: 8px;
+            /* Cuida do Preenchimento*/
+            background-color: transparent;
+            /* Aqui deixamos o fundo do Botão transparent, ou seja, sem o fundo branco que estava em primeiro ´plano */
+            border: none;
+            /*  None é usado para retirar algo, nesse caso a borda.*/
         }
 
-        #botao-header > button > a {  /* Estamos chamando aqui nossa Tag de Link para alteração */
-            display: flex; /* Deixar os itens Lado a Lado*/
-            align-items: center; /* Alinhar os itens para o centro */
+        #botao-header>button>a {
+            /* Estamos chamando aqui nossa Tag de Link para alteração */
+            display: flex;
+            /* Deixar os itens Lado a Lado*/
+            align-items: center;
+            /* Alinhar os itens para o centro */
             color: black;
+            /* cor da letra */
             text-decoration: none;
+            /* tirar a sublinha do link */
         }
 
-        #botao-header > button >a:hover  { /*  */
+        #botao-header>button>a:hover {
+            /* usaremos para mudar algumas coisas na tag (A) */
             text-decoration: none;
+            /* tirar a sublinha do link */
             color: white;
+            /* cor da letra */
             transition: 0.8s;
+            /* transição da cor de letra */
+
+
+        }
+
+        #botao-header > button > a > img {
+            width: 30px;
+            height: 30px;
+            margin-right: 2px;
+        }
+
+        /*Diferença entre ID e Class: A diferença entre um id e uma class é que uma é que um id é usado apenas para indentificar um único elemnteo em nosso HTML. Os indentificadores são usados apenas quando um elemento na página precisar ter um estilo especifico aplicado a ele, no entanto, uma class pode ser usada para indentificar mais de um elemento HTML  */
+
+
+        
+        #img-destaque {
+            background-image: url(imagens/padaria.webp);
+            background-position: center;
+            background-size: cover;  
+            width: 100%;
+            height: 80vh;
+        }
+
+        .img-div{
+            padding: 25px;
+            background-image: url(imagens/img-div.jpg);
+            background-position: center;
+            background-size: auto;
         }
