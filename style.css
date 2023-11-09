@@ -178,41 +178,61 @@
             /* Espaçamento do topo */
         }
 
-        .line{
-            margin: 0 auto; /* Nesse caso la (line) é pra deixar no centro. */
-            width: 30%; /* largura da Linha */ 
-            
+        .line {
+            margin: 0 auto;
+            /* Nesse caso la (line) é pra deixar no centro. */
+            width: 30%;
+            /* largura da Linha */
+
         }
 
-        #clients-list{
-            display: flex; /* Deixa o item Lado a Lado */
-            align-items: center; /* Alinhamento dos itens ao centro*/ 
-            justify-content: space-evenly;  /* Espaço uniforme. (Deixa o item certinho na sua tela) */ 
-            margin-top: 35px; /* Espaçamento superior */
+        #clients-list {
+            display: flex;
+            /* Deixa o item Lado a Lado */
+            align-items: center;
+            /* Alinhamento dos itens ao centro*/
+            justify-content: space-evenly;
+            /* Espaço uniforme. (Deixa o item certinho na sua tela) */
+            margin-top: 35px;
+            /* Espaçamento superior */
         }
 
-        .clients-item{
-            display: flex; /* Deixa o item Lado a lado  */
-            justify-content: center; /* Justifica os itens ao centro */ 
-            align-items: center; /* Deixa os itema ao centro */
-            flex-direction: column; /* Deixa os itens em coluna*/ 
+        .clients-item {
+            display: flex;
+            /* Deixa o item Lado a lado  */
+            justify-content: center;
+            /* Justifica os itens ao centro */
+            align-items: center;
+            /* Deixa os itema ao centro */
+            flex-direction: column;
+            /* Deixa os itens em coluna*/
         }
 
-        .clients-item>img{
-            width: 84px; /* Largura */ 
-            height: 84px; /* Altura */
+        .clients-item>img {
+            width: 84px;
+            /* Largura */
+            height: 84px;
+            /* Altura */
         }
 
-        .clients-item>h3{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Mudar a Fonte */
-            font-size: 32px; /* Tamanho da fonte */
-            margin-top: 10px; /* Espaçamento superior */
-            align-items: center; /* Deixa os itens ao centro */
+        .clients-item>h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Mudar a Fonte */
+            font-size: 32px;
+            /* Tamanho da fonte */
+            margin-top: 10px;
+            /* Espaçamento superior */
+            align-items: center;
+            /* Deixa os itens ao centro */
         }
 
-        .clients-item>p{
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Mudar a Fonte */
-            font-size: 18px; /* Tamanho da fonte */
-            align-items: center; /* Espaçamento superior */
-            margin-top: 10px; /* Deixa os itens ao centro */
+        .clients-item>p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Mudar a Fonte */
+            font-size: 18px;
+            /* Tamanho da fonte */
+            align-items: center;
+            /* Espaçamento superior */
+            margin-top: 10px;
+            /* Deixa os itens ao centro */
         }
