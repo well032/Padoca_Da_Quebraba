@@ -236,3 +236,121 @@
             margin-top: 10px;
             /* Deixa os itens ao centro */
         }
+
+        #products {
+            background: linear-gradient(180deg, #d49664 8.33%, rgb(244, 200, 175, 0) 100%);
+            /* Degrade do fundo */
+            padding: 30px;
+            /* Preenchimento*/
+            text-align: center;
+        }
+
+        .section-products {
+            margin-top: 3rem;
+            /* Espaçamento superior */
+            display: flex;
+            /* Deixando os itens lado a lado */
+            align-items: center;
+            /* Deixando os itens ao centro*/
+            justify-content: space-evenly;
+            /* Espaçamento Gradual (Iguamente). */
+        }
+
+        .img-products {
+            width: 300px;
+            /* Largura da imagem */
+            height: 300px;
+            /* Altura da imagem */
+            border-radius: 50px;
+            /* Arredondamento da borda */
+        }
+
+        .title-products {
+            margin-top: 10px;
+            /* Espaçamento superior */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Mudamos a fonte da letra */
+            text-align: center;
+            /* Deixamos o item ao centro */
+            font-size: 22px;
+            /* Tamanho da letra*/
+        }
+
+        #products>a {
+            text-decoration: none;
+            /* Tirando o subliniado da letra */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Mudando a fonte da letra */
+            font-size: 20px;
+            /* Tamanho da letra*/
+            color: black;
+            /* Cor da letra */
+            justify-content: center;
+            /* Justificando o item ao centro*/
+            text-align: center;
+            /* Deixando o item ao centro*/
+            display: flex;
+            /* Deixando o item Lado a lado  */
+        }
+
+        #products>a:hover {
+            transition: 0.8s;
+            /* Transição da cor*/
+            color: red;
+            /* Cor da letra */
+            font-size: 27px;
+            /* Tamanho da letra */
+        }
+
+        #sobre-nos {
+            padding: 120px;
+            /* Espaçamentos da Margem */
+            background-image: url(imagens/fundo-sobre-nos.jpg);
+            /* Acrecentamos a imagem */
+            background-repeat: no-repeat;
+            /* no-repeat, para não repetir a imagem, caso ela seja muito Pequena/Grande */
+            background-position: center;
+            /* Pocionamento da imagem no centro */
+            background-size: cover;
+            /* Não acontecer o ultrapassamento do site */
+            background-attachment: fixed;
+            /* Fixamos a imagem ao site */
+        }
+
+        #sobre-nos>h3 {
+            color: white;
+            /* Cor da lentra*/
+            text-align: center;
+            /* Deixamos o texto ao centro */
+            font-size: 40px;
+            /* Tamanho da letra */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            /* Mudamos a fonte da letra */
+        }
+
+        #sobre-nos>p {
+            color: white;
+            /* Cor da letra*/
+            font-size: 20px;
+            /* Tamanho da fonte */
+            margin: 30px;
+            /* Espaçamento*/
+            margin-top: 2em;
+            text-align: left;
+        }
+
+        footer{
+            background-image: url(imagens/img-footer.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        footer>h2{
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .itens-footer>img{
+           width: 40px;
+           height: 40px;
+        }
