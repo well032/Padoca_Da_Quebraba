@@ -7,7 +7,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        header {
+        header {  /* Cabeçalho */
             display: flex;
             /* deixa os itens lado a lado  */
             align-items: center;
@@ -29,20 +29,21 @@
             /*  aultura máxima*/
         }
 
-        header>h1 {
+        header>h1 { /* Titulo do Cabeçalho  */
             /* Selecionamos aqui a cor da letra do nosso H1, ou seja, do nosso titulo */
             color: white;
             /* Chamamos a propriedade color e definimos uma cor em questão */
         }
 
-        header>img {
+        header>img { /* Imagem do Cabeçalho */
             width: 190px;
             /* Largura da Imagem*/
             height: 135px;
             /* Altura da  Imagem */
         }
 
-        #menu-header {
+        #menu-header { /* Menu do Cabeçalho */
+
             /* nosso menu de navegação */
             display: flex;
             /* Responsavel por colocar os itens lado a lado  */
@@ -50,7 +51,8 @@
             /* Alinhar ps itens do nosso Header para o centro*/
         }
 
-        #list-header {
+        #list-header {  /* Lista do Cabeçalho */
+
             /* Nossa lista não ordenada, aqui mudaremos diretamente nossa list. */
             display: flex;
             /* Responsável por colocar os itens Lado a Lado */
@@ -58,7 +60,8 @@
             /* margem da direita. 1 rem equivale a 16px, oi seja, podemos ultilizar para facilitar a inserção de PX*/
         }
 
-        #list-menu {
+        #list-menu { /* Menu da lista  */
+
             display: flex;
         }
 
@@ -336,21 +339,58 @@
             margin: 30px;
             /* Espaçamento*/
             margin-top: 2em;
+            /* Espaçamento superior*/
             text-align: left;
+            /* Justificamos o texto à esquerda.*/
         }
 
-        footer{
-            background-image: url(imagens/img-footer.webp);
+        footer {
+            background-image: url(imagens/footer.jpg);
+            /* Acrecentamos a imagem */
             background-repeat: no-repeat;
+            /* no-repeat, para não repetir a imagem, caso ela seja muito Pequena/Grande */
             background-size: cover;
+            /* Não acontecer o ultrapassamento do site */
+            background-position: bottom;
+            /* Pocionamento da imagem*/
+            padding: 50px;
         }
 
-        footer>h2{
+        footer>ul {
+            /* Chamamos noss alista para ser Editada */
+            display: flex;
+            /* Deixamos os itens Lado a Lado*/
+            justify-content: space-evenly;
+            /* Espaçamento Gradual (Iguamente). */
+        }
+
+        .itens-footer {
+            text-align: center; /* Deixamos o item ao centro */
+            display: flex; /* Deixa o item Lado a Lado  */ 
+            margin-top: 30px; /* Margem superior */ 
+            font-size: 20px; /* Tamanho da letra */
+        }
+
+        footer>h2 {
             text-align: center;
+            /* Deixamos o texto ao centro */
             font-size: 40px;
+            /* Tamanho da letra */
+            font-weight: bold; /* Grossura da letra*/ 
+            margin-bottom: 30px; /* Espaçamento inferior */ 
+            color: black; /* Cor da letra */ 
         }
 
-        .itens-footer>img{
-           width: 40px;
-           height: 40px;
+        .itens-footer>img {
+            width: 34px;
+            /* Largura */
+            height: 34px;
+            /* Altura */
+        }
+
+        .itens-footer>p{
+            margin-left: 10px; /* Espaçamento a esquerda*/ 
+            color: black; /* Cor da letra*/
+            font-weight: bold; /* Grossura da letra*/
+            font-size: 24px; /* Tamanho da letra */ 
         }
