@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    /* Largura */
+
+    height: 100vh;
+    /* Altura */
+
+    background-image: url(imagens/footer.jpg);
+    /* Aqui inserimos a imagem */
+
+    background-position: center;
+    /* Posicionamos a imagem ao centro*/
+
+    background-repeat: no-repeat;
+    /* Colocamos para que a img não se repita*/
+
+    background-size: cover;
+    /* Aqui atribuimos para que a imagem fique sobre toda nossa pagina */
+
+    display: flex;
+    /* Para que os itens fiquem lado a lado */
+
+    align-items: center;
+    /* Alinhamento dos itens ao centro */
+
+    justify-content: center;
+    /* Justificar-conteudo ao centro*/
+}
+
+.container {
+    /* aqui estamos chamando nossa class da DIV PAI*/
+
+    max-width: 1280px;
+    /* atribuimos aqui um tamanho maximo  de larguta que essa class ira exercer */
+
+    margin: 0 auto;
+    /*  dizemos ao navegador que as margens superior e inferior sao iguais a 0 e as da esquerda/direita são autoaticas*/
+}
+
+form {
+    /* Aqui chamamos nosso Form para Estilização */
+
+    background-color: white;
+    /* aqui colocamos uma cor ao fundo*/
+
+    max-width: 500px;
+    /* atribuimos aqui um tamanho mazumo de largura que esse formulario ira exercer */
+
+    height: 450px;
+    /* Largura do formulario*/
+
+    padding: 40px;
+    /* preenchimento */
+
+    border-radius: 20px;
+    /* arredondamento das bordas do formularios */
+}
+
+form>h1 {
+    /* chamanmos nosso texto pata estilização */
+
+    text-align: center;
+    /* Alinhamento ao centro */
+
+    font-size: 30px;
+    /* tamanho da letra */
+
+    color: black;
+    /* cor da letra*/
+}
+
+form>p {
+    /* Chamamos nosso paragrafo para estilizaçaõ */
+
+    text-align: center;
+    /* Alinhamento ao centro*/
+
+    margin: 20px 0;
+    /* Dizemos ao navegador que as margens superior e inferior sao iguais a 20 e as da esquerda e direita sao 0*/
+}
+
+.input-single {
+    /* chamamos nossa class que esta encabeçada nas Dvis's dos nosso input*/
+
+    position: relative;
+    /* Posicão relativa */
+    
+    margin: 20px 0;
+    /* Dizemos ao navegador que as margens superior e inferior sao iguais a 20 e as da esquerda e direita sao 0*/
+}
