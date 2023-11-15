@@ -12,16 +12,14 @@
 
     <!-- Aqui cjamamos a sectiond para adicionar informações (tags) a ele -->
 
-    <section id="form-container">
+    <section class="form-container">
 
         <!-- Damos um nome para a nossa Section a qual chamará "form-container" -->
 
+        <div class="container">
 
-        <!--  -->
 
         <form action=""> <!-- Abrimos a tag de formulario -->
-
-            <div class="container">
 
                 <h2>Cadastre-se e tenha facilidade e descontos exclusivos</h2> <!-- titulo do nosso formulario -->
 
@@ -32,12 +30,13 @@
 
                 <div class="input-single"> <!-- Aqui criamos uma div para inserimos nossa label e input -->
 
+                    <input type="text" id="nome-box" class="input" name="nome" autocomplete="off" required>
+                    <!-- atribulamos os nome de identificação que serão usadas no PHP -->
+
                     <label for="nome-box">Nome Completo</label>
                     <!-- aqui colocamos o nome qe irá aparecer ao lado da nossa caixa -->
 
 
-                    <input type="text" id="nome-box" class="input" name="nome" autocomplete="off" required>
-                    <!-- atribulamos os nome de identificação que serão usadas no PHP -->
 
 
                 </div>
@@ -45,27 +44,29 @@
 
 
                 <div class="input-single">
+
+                    <input type="email" id="email-box" class="input" name="email" autocomplete="off" required>
+                    <!-- atribulamos os nome de identificação que serão usadas no PHP (name e id) -->
 
                     <label for="email-box">Seu Email</label>
                     <!-- aqui colocamos o nome qe irá aparecer ao lado da nossa caixa -->
 
-                    <input type="email" id="email-box" class="input" name="email" autocomplete="off" required>
-                    <!-- atribulamos os nome de identificação que serão usadas no PHP -->
                 </div>
 
 
 
                 <div class="input-single">
+
+                    <input type="number" id="tel-box" class="input" name="telefone" autocomplete="off" required>
+                    <!-- atribulamos os nome de identificação que serão usadas no PHP -->
 
                     <label for="tel-box"> Seu Telefone</label>
                     <!-- aqui colocamos o nome qe irá aparecer ao lado da nossa caixa -->
 
                     
-                    <input type="number" id="tel-box" class="input" name="telefone" autocomplete="off" required>
-                    <!-- atribulamos os nome de identificação que serão usadas no PHP -->
                 </div>
 
-                <div class="bnt">
+                <div class="btn">
                     <input type="submit" value="Enviar">
                     <!-- input submit serve para enviar imfomações // Valeu é o texto que ira aparecer ao publico. -->
                 </div>
