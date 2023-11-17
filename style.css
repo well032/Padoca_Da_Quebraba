@@ -62,7 +62,7 @@
 
         #list-menu { /* Menu da lista  */
 
-            display: flex;
+            display: flex; /* deixa os itens lado a lado */
         }
 
         .item-menu-header {
