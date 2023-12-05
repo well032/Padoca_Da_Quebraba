@@ -308,7 +308,7 @@
         }
 
         #sobre-nos {
-            padding: 120px;
+            padding: 10%;
             /* Espaçamentos da Margem */
             background-image: url(imagens/fundo-sobre-nos.jpg);
             /* Acrecentamos a imagem */
@@ -327,10 +327,11 @@
             /* Cor da lentra*/
             text-align: center;
             /* Deixamos o texto ao centro */
-            font-size: 40px;
+            font-size: 4em;
             /* Tamanho da letra */
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             /* Mudamos a fonte da letra */
+            
         }
 
         #sobre-nos>p {
@@ -397,7 +398,7 @@
             font-size: 24px; /* Tamanho da letra */ 
         }
 
-        @media(max-whidth:430px){
+        @media(max-width:430px){
     #menu-header {
     display: none;
 }
@@ -416,4 +417,85 @@
     width: 30%;
     
 }
+
+header #logo{
+    width: 24%; /* Modificar */
+    height: 15%; /* Modificar */
+  }
+
+  header h1{
+      font-size: 1em;
+      
+  }
+
+  header{
+     padding: 5%;
+  }
+
+
+  #img-destaque{
+     max-width: 100%;
+     height: auto;
+  }
+
+  #img-padaria{
+    width: 100%;
+}
+
+  .img-div{
+      width: 100%;
+  }
+
+  #clientes>h2 {
+      font-size: 1.7em; /*EM e REM indicado para letras*/
+  }
+
+  .line{
+      width: 90%;
+  }
+  
+  .clientes-item>h3 {
+      font-size: 1em;
+  }
+
+  .clientes-item>p {
+      font-size: 0.8em;
+      margin-bottom: 15%;
+      text-align: center;
+  }
+  
+  #clients-list{
+     display: block; /*um embaixo do outro*/
+  }
+
+  .section-products{
+      display: block;
+      text-align: center;
+  }
+
+  .section-products h2{
+      margin-bottom: 15%;
+  }
+
+  .img-products{
+    margin-top: 40px;
+  }
+
+  #products a {
+    margin-top: 25px;
+  }
+
+  #sobre-nos{
+    font-size: 1em;
+  }
+
+   #sobre-nos p{
+    font: bold;
+    font-size: 1.2em;
+   }
+
+   .contatos-footer{
+    display: block;
+   }
+
         }
